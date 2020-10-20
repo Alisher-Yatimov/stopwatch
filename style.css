@@ -1,0 +1,43 @@
+*, *:before, *:after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    outline: none;
+}
+
+.wrapper{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fee9fd;
+}
+
+.stopwatch{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.stopwatch-time{
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+}
+
+.stopwatch-control{
+    display: flex;
+    justify-content: center;
+}
+.stopwatch-control button{
+    margin: 0 1rem;
+    font-size: 3rem;
+    background: transparent;
+    border: none;
+    transition: all ease .2s;
+}
+
+.stopwatch-control button:hover{
+    transform: scale(1.1);
+}
